@@ -1,3 +1,8 @@
+# Terraform
+**/terraform.tfstate*
+**/.terraform
+**/*.tfplan
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -131,6 +136,7 @@ dmypy.json
 
 # IDE
 .DS_Store
+**/.idea
 
 data/*
 !data/aylien_covid_news_data_sample.jsonl
